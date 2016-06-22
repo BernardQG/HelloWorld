@@ -1,0 +1,21 @@
+cout<<"Lista"<<endl;
+    Lista* l1;
+    l1=new Lista(1);
+	l1->setPeso(100);
+	l1=new Lista(10);
+	l1->push(7,3);
+	l1->push(5,3);
+	l1->push(14,3);
+	l1->push(15,3);
+	l1->print();
+	l1->pop(13);
+	cout<<"Pila"<<endl;
+	
+	pila->push(10);
+	pila->push(45);
+	pila->push(23);
+	pila->print();
+	pila->pop();
+	pila->print();
+	pila->pop();
+	pila->print();
